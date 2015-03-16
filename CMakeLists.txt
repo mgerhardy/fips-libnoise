@@ -1,4 +1,4 @@
-fips_begin_lib(libnoise)
+fips_begin_lib(noise)
 	include_directories(libnoise/src/noise)
 	fips_files(
 		libnoise/src/noisegen.cpp

@@ -6,4 +6,4 @@ exports:
     header-dirs:
         - libnoise/src/noise
     modules :
-        libnoise: .
+        noise: .
