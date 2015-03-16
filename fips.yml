@@ -4,9 +4,6 @@
 ---
 exports:
     header-dirs:
-        - libnoise/Imaging
-        - accidental-noise-library/Noise
-        - accidental-noise-library/RGBA
-        - accidental-noise-library/Volume
+        - libnoise/src/noise
     modules :
-        accidentalnoise: .
+        libnoise: .
