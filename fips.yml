@@ -1,0 +1,12 @@
+#
+# fips-libnoise
+#
+---
+exports:
+    header-dirs:
+        - libnoise/Imaging
+        - accidental-noise-library/Noise
+        - accidental-noise-library/RGBA
+        - accidental-noise-library/Volume
+    modules :
+        accidentalnoise: .
